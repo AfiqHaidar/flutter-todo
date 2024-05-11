@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
 class DemoButtons extends StatefulWidget {
-  DemoButtons({super.key});
+  const DemoButtons({super.key});
 
   @override
   State<DemoButtons> createState() {
-    return DemoButtonsState();
+    return _DemoButtonsState();
   }
 }
 
-class DemoButtonsState extends State<DemoButtons> {
+class _DemoButtonsState extends State<DemoButtons> {
   var _isUnderstood = false;
 
   @override
